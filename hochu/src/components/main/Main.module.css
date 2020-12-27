@@ -1,0 +1,177 @@
+.titleWrap {
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-between;
+}
+.titleWrap h2 {
+    color: #2d2d2f;
+    font-size: 30px;
+    width: 28%;
+}
+.titleWrap h4 {
+    font-size: 14px;
+    font-weight: 600;
+    width: 15%;
+    margin-top: 38px;
+    margin-left: 18px;
+    line-height: 19px;
+}
+.titleWrap div {
+    flex-grow: 2;
+    display: flex;
+    justify-content: end;
+    margin-top: 53px;
+}
+.productsWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.productWrap {
+    width: 23%;
+    margin-bottom: 25px;
+}
+
+.productImageWrap {
+    background-color: #FF2D87;
+    height: 162px;
+    border-radius: 0px 0px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+.productImageWrap div:nth-child(2) {
+    margin-top: 5px;
+}
+
+.productImage {
+    width: 100%;
+    height: 137px;
+    background-color: #fff;
+    border-radius: 0px 0px 25px 25px;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.productImageBtn {
+    display: flex;
+    margin-top: 99px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.productImageBtn div {
+    height: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.productImageBtn div:nth-child(1) {
+    background-color: #2967FF;
+}
+.productImageBtn div:nth-child(2) {
+    background-color: #58CF18;
+    margin: 0;
+}
+
+.productDescription {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.productDescription div:nth-child(2) {
+    font-size: 12px;
+    margin-top: 9px;
+}
+.productDescription div:nth-child(3) {
+    font-size: 20px;
+    margin-top: 4px;
+    color: #2967FF;
+}
+.productDescription div:nth-child(4) {
+    margin-top: 2px;
+}
+.productDescription span:nth-child(1) {
+    text-decoration:line-through;
+}
+.productDescription span:nth-child(2) {
+    color: #FF2D87;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.productInfoWrap {
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #F0F4FB;
+    border-radius: 10px;
+    font-size: 14px;font-weight: 500;
+}
+.productInfoWrap div:nth-child(1) {
+    margin-bottom: 0px;
+    line-height: 22px;
+}
+.productInfoWrap div:nth-child(1) span {
+    color: #2967FF;
+}
+
+.productInfoWrap div:nth-child(1) {
+    font-size: 14px;
+}
+.productInfoWrap div:nth-child(3) span:nth-child(1) {
+    font-weight: 700;
+}
+.productInfoWrap div:nth-child(3) span:nth-child(2) {
+    color: #58CF18;
+    margin-left: 20px;
+}
+.productBuyBtn {
+    display: flex;
+    margin-top: 7px;
+    height: 45px;
+}
+.productBuyBtn div:nth-child(1) {
+    background-color: #2967FF;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+.productBuyBtn div:nth-child(2) {
+    background-color: #FF2D87;
+    width: 50%;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+.showMoreBtnWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.showMoreBtnWrap div {
+    background-color: #F0F4FB;
+    padding: 17px 35px 17px 35px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}

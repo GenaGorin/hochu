@@ -1,0 +1,55 @@
+.mainBtnBlue {
+    background-color: #2967FF;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.mainInfoBlockWrap {
+    display: flex;
+    border-start-start-radius: 20px;
+    background-color: #FF2D87;
+    border-radius: 0px 15px 15px 15px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+.mainInfoBlockWrap div:nth-child(1) {
+    background-color: #2967FF;
+    width: 50%;
+    border-radius: 0px 15px 15px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainInfoBlockWrap div:nth-child(2) {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSelect {
+    display: block; 
+    padding-left: 15px;
+    font-size: 14px; 
+    font-weight: 400; 
+    color: #727280; 
+    width: 55%;
+    height: 40px;
+    box-sizing: border-box; 
+    margin: 0; 
+    border: 1px solid #F0F4FB;
+     box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+    border-radius: 76px;
+     -moz-appearance: none;
+     -webkit-appearance: none;
+     appearance: none;
+     background-color: #fff; 
+    background-image: url('../images/Vector.png'); 
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.3em top 50%, 0 0;
+    background-size: 1.3em auto, 100%; 
+} 
